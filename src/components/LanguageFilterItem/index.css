@@ -1,0 +1,25 @@
+.repos-list {
+  list-style-type: none;
+}
+
+.language-btn {
+  border: none;
+  font-family: 'Lobster';
+  font-size: 16px;
+  color: #1e293b;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+.active-btn {
+  border: 1px solid #0284c7;
+  color: #0284c7;
+  border-radius: 11px;
+  padding: 7px;
+}
+
+@media screen and (min-width: 768px) {
+  .language-btn {
+    font-size: 20px;
+  }
+}
